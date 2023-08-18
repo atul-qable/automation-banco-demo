@@ -105,6 +105,11 @@ public class Base {
         System.out.println("Browser name: " + browserName);
         if (browserName.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
+            HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+            chromePrefs.put("profile.default_content_settings.popups", 0);
+            chromePrefs.put("download.default_directory", TestRunner.pathForConfigurationFile);
+            options = new ChromeOptions();
+            options.setExperimentalOption("prefs", chromePrefs);
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(options);
             System.out.println("Inside Chrome");

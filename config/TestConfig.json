@@ -11,12 +11,12 @@
       "isGrid": false,
       "gridPlatform": "local",
       "testNGsuite": [
-        "regression.xml"
+        "downloadFile.xml"
       ],
       "apiTestConfig": {
         "enable": false,
         "env": ""
       }
-    }
+    },
   }
 }
