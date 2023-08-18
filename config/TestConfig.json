@@ -1,0 +1,22 @@
+{
+  "run": "bancoTestWeb",
+  "config": {
+    "bancoTestWeb": {
+      "platform": "web",
+      "browser": "chrome",
+      "capabilities": {
+        "browserName": "Chrome"
+      },
+      "env": "https://bc2.custodia.bradesco/calilogin/login.jsf",
+      "isGrid": false,
+      "gridPlatform": "local",
+      "testNGsuite": [
+        "regression.xml"
+      ],
+      "apiTestConfig": {
+        "enable": false,
+        "env": ""
+      }
+    }
+  }
+}

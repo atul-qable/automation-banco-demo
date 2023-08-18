@@ -1,0 +1,78 @@
+{
+  "usernameTextBox": {
+    "locatorType": "xpath",
+    "webLocator": "//input[@name=\"param1\"]"
+  },
+  "passwordTextBox": {
+    "locatorType": "xpath",
+    "webLocator": "//input[@name=\"param2\"]"
+  },
+  "avançarButton": {
+    "locatorType": "xpath",
+    "webLocator": "//span[contains(text(),\"Avançar\")]//parent::a"
+  },
+  "CustódiaButton": {
+    "locatorType": "xpath",
+    "webLocator": "//span[contains(text(),\"Custódia e Controladoria de Ativos\")]//parent::a"
+  },
+  "RelatóriosDropDownButton": {
+    "locatorType": "xpath",
+    "webLocator": "//h3[contains(text(),\"Relatórios\")]"
+  },
+  "PosiçãoDropDownButton": {
+    "locatorType": "xpath",
+    "webLocator": "//span[contains(text(),\"Posição\")]"
+  },
+  "CarteiraDiáriaButton": {
+    "locatorType": "xpath",
+    "webLocator": "//a[contains(text(),\"Carteira Diária\")]"
+  },
+  "CarteiraText": {
+    "locatorType": "xpath",
+    "webLocator": "//div[@id=\"dados:carteira\"]//input"
+  },
+  "CarteiraTextLink": {
+    "locatorType": "xpath",
+    "webLocator": "//a[contains(text(),\"012367 - CASH FIM CRED PRIV\")]"
+  },
+  "searchButton": {
+    "locatorType": "xpath",
+    "webLocator": "//i[@class=\"ico search\"]//parent::button"
+  },
+  "pesquisarButton": {
+    "locatorType": "xpath",
+    "webLocator": "//a[contains(text(),\"Pesquisar\")]"
+  },
+  "8532Button": {
+    "locatorType": "xpath",
+    "webLocator": "//a[contains(text(),\"8532\")]"
+  },
+  "dayTextBox": {
+    "locatorType": "xpath",
+    "webLocator": "//input[@id=\"dados:dataPosicDia\"]"
+  },
+  "monthTextBox": {
+    "locatorType": "xpath",
+    "webLocator": "//input[@id=\"dados:dataPosicMes\"]"
+  },
+  "gerarRelatórioButton": {
+    "locatorType": "xpath",
+    "webLocator": "//i[@class=\"ico gradient-red\"]//parent::a"
+  },
+  "consultarProtocoloButton": {
+    "locatorType": "xpath",
+    "webLocator": "//span[contains(text(),\"Consultar Protocolo\")]//parent::a"
+  },
+  "ConsultarButton": {
+    "locatorType": "xpath",
+    "webLocator": "//i[@class=\"ico gradient-red\"]//parent::a"
+  },
+  "fileNumberText": {
+    "locatorType": "xpath",
+    "webLocator": "//span[contains(text(),\"Número de Protocolo: \")]//parent::p//span[2]"
+  },
+  "searchButtonTextBox": {
+    "locatorType": "xpath",
+    "webLocator": "//i[@class=\"ico gradient-red\"]//parent::a//parent::div//input"
+  }
+}
