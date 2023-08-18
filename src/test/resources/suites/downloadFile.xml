@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Godrej Locks Login Functionality">
+    <test name="Testing Download Functionality">
+        <classes>
+            <class name="web.tests.banco.Banco">
+                <methods>
+                    <include name="bancoTestScenarioOne"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
